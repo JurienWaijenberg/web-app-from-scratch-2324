@@ -3,6 +3,10 @@
     --black:#000000;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: var(--black);
     margin: 0px;
@@ -13,19 +17,17 @@ img {
 }
 
 header {
-    position: relative;
+    position: fixed;
+    width: 100%;
     height: 100px;
     background: linear-gradient(to bottom, #000, #000 50%, rgba(255,0,0,0) 100%);
     z-index: 99999;
 }
 
-main {
-    margin-top: -100px;
-}
 
 h1 {
     color: var(--white);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 6em;
     text-transform: uppercase;
 }
@@ -50,10 +52,25 @@ p {
     font-size: 1.4em;
 }
 
+.logo {
+    color: var(--white);
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
 li {
     color: var(--white);
     font-family: 'Inter', sans-serif;
     font-size: 1.4em;
+}
+
+a {
+    color: var(--white);
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 ul {
@@ -84,6 +101,25 @@ ul {
     flex-direction: column;
 }
 
+nav {
+    max-width: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin: 0px;
+}
+
 .video {
     height: 70vh;
     width: 100%;
@@ -92,6 +128,10 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .motor {
@@ -111,12 +151,13 @@ ul {
 }
 
 #myVideo {
-    position: relative;
+    position: absolute;
     left: 0;
-    width: 100%;
-  }
+    width: 100vw;
+    min-height: 70vh;
+}
 
-  .video-overlay {
+.video-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -126,13 +167,13 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 
-  .video-overlay h1 {
+.video-overlay h1 {
     text-align: center;
-  }
+}
 
-  .profile-picture {
+.profile-picture {
     background-image: url(../images/porfile-picture.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -140,4 +181,36 @@ ul {
     width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 20px;
-  }
+}
+
+@media only screen and (max-width: 1500px) {
+    .background-text {
+        font-size: 11.5em;
+    }
+}
+
+@media only screen and (max-width: 1210px) {
+    .max-width {
+        padding: 5em 2em;
+    }
+
+    nav {
+        padding: 1em 2em 0em 2em;
+    }
+
+    .background-text {
+        font-size: 15vw;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
