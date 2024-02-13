@@ -152,9 +152,6 @@ header ul {
 
 #myVideo {
     position: absolute;
-    left: 0;
-    width: 100vw;
-    min-height: 70vh;
 }
 
 .video-overlay {
@@ -212,5 +209,45 @@ header ul {
 }
 
 @media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 2em;
+    }
 
+    #motor .row {
+        flex-direction: column-reverse;
+    }
+    #profile .row {
+        flex-direction: column;
+    }
+
+    .background-text {
+        top: auto;
+    }
+
+    li {
+        font-size: .8em;
+    }
+
+    header ul {
+        gap: 2em;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    #myVideo {
+        width: -webkit-fill-available;
+        min-height: 70vh;
+        height: auto;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    #myVideo {
+        width: auto;
+        min-height: auto;
+        height: 70vh;
+    }
 }
