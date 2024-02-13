@@ -230,8 +230,16 @@ header ul {
         top: auto;
     }
 
-    li {
+    header li {
         font-size: .8em;
+    }
+
+    li {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 1em;
     }
 
     header ul {

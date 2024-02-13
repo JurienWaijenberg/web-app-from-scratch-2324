@@ -1,0 +1,13 @@
+[
+    {
+        "firstName": "Juriën",
+        "lastName": "Waijenberg",
+        "avatar_url": "https://i.pinimg.com/736x/ff/4b/a6/ff4ba66bb390f81489f102f9a8e61cab.jpg",
+        "age": 25,
+        "city": "Assendelft",
+        "hobbies" : ["Films", "Music", "Art", "Gaming"],
+        "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
+        "bio" : "optioneel",
+        "favouriteAnimal" : "optioneel"
+    }
+]
