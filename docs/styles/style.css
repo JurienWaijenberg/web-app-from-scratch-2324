@@ -152,6 +152,9 @@ header ul {
 
 #myVideo {
     position: absolute;
+    object-fit: cover;
+    width: -webkit-fill-available;
+        min-height: 70vh;
 }
 
 .video-overlay {
@@ -236,18 +239,3 @@ header ul {
     }
 }
 
-@media only screen and (orientation: landscape) {
-    #myVideo {
-        width: -webkit-fill-available;
-        min-height: 70vh;
-        height: auto;
-    }
-}
-
-@media only screen and (orientation: portrait) {
-    #myVideo {
-        width: auto;
-        min-height: auto;
-        height: 70vh;
-    }
-}
