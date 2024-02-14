@@ -9,7 +9,7 @@
         "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
         "bio" : "optioneel",
         "favouriteAnimal" : "optioneel",
-        "id" : "porfile"
+        "id" : "profile"
     },
     {
         "firstName": "Moto Guzzi",
