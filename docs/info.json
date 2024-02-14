@@ -8,7 +8,8 @@
         "hobbies" : ["Films", "Music", "Art", "Gaming"],
         "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
         "bio" : "optioneel",
-        "favouriteAnimal" : "optioneel"
+        "favouriteAnimal" : "optioneel",
+        "id" : "porfile"
     },
     {
         "firstName": "Moto Guzzi",
@@ -19,6 +20,7 @@
         "hobbies" : ["Films", "Music", "Art", "Gaming"],
         "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
         "bio" : "optioneel",
-        "favouriteAnimal" : "optioneel"
+        "favouriteAnimal" : "optioneel",
+        "id" : "motor"
     }
 ]

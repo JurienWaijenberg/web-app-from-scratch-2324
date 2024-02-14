@@ -41,6 +41,7 @@ function displayData(data) {
         // Create an HTML element to display each item
         var listItem = document.createElement('section');
         listItem.classList.add('motor');
+        listItem.setAttribute('id', item.id);
 
             // Assuming the JSON structure has 'name' and 'age' properties
             var lastnameParagraph = document.createElement('h3');
