@@ -9,5 +9,16 @@
         "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
         "bio" : "optioneel",
         "favouriteAnimal" : "optioneel"
+    },
+    {
+        "firstName": "Moto Guzzi",
+        "lastName": "Nevada 750",
+        "avatar_url": "https://jurienwaijenberg.github.io/web-app-from-scratch-2324/images/moto-guzzi.png",
+        "age": "750 cc",
+        "city": "2 cylinder",
+        "hobbies" : ["Films", "Music", "Art", "Gaming"],
+        "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
+        "bio" : "optioneel",
+        "favouriteAnimal" : "optioneel"
     }
 ]

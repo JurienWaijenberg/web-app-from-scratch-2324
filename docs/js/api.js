@@ -68,6 +68,10 @@ function displayData(data) {
                         ageParagraph.textContent = item.age;
                         ul.appendChild(ageParagraph);
 
+                        var city = document.createElement('li');
+                        city.textContent = item.city;
+                        ul.appendChild(city);
+
                 var profileAvatar = document.createElement('section');
                 profileAvatar.classList.add('profile-picture');
                 profile.appendChild(profileAvatar);    
