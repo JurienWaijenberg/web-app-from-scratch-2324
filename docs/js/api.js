@@ -57,7 +57,6 @@ function displayData(data) {
                 profileInfo.classList.add('profile-info');
                 profile.appendChild(profileInfo);
 
-                    // Assuming the JSON structure has 'name' and 'age' properties
                     var nameParagraph = document.createElement('h2');
                     nameParagraph.textContent = item.firstName;
                     profileInfo.appendChild(nameParagraph);
@@ -77,7 +76,7 @@ function displayData(data) {
                     avatar.src = item.avatar_url;
                     profileAvatar.appendChild(avatar);
 
-        // Append the created element to the data-container div
+        // Append the created element to the data-container element
         document.getElementById('repeater').appendChild(listItem);
     });
 }
