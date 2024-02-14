@@ -1,4 +1,4 @@
-# Weekly nerd
+# Weekly nerd 
 
 ## Stop using JS for that
 
@@ -122,6 +122,7 @@ input {
 
 Maak gebruik van min en max width.
 
+
 ### Masonry layout
 
 container {
@@ -133,6 +134,58 @@ container {
 selectlist
 Is een stylebare list selector.
 
+
 ### Scroll driven animations
 
 Check meer op bram.us
+
+
+## Fenna 
+
+### Accessibility
+
+Custom focus state
+Focus-visible
+
+ARIA Accessible rich internet application
+
+aria-label
+Zorgt er voor dat er een beschrijvende tekst is.
+
+Aria-controls
+Elementen die met elkaar in verbinding staan. 
+
+Aria-expanded
+Geeft de status van een element dat kan worden uitgeklat.
+
+Aria-live
+Om veranderingen live door te geven.
+ "off"
+ "polite"
+ "assertive"
+
+Aria-atomic
+
+#### Carousel
+Moet role="region" hebben 
+aria-roledescription="carousel"
+
+Voor de slide geef je een role="group" mee.
+
+aria-hidden="true"
+
+Gebruik geen li elements voor slides.
+
+npm package voor dialogs
+
+#### Contrast
+
+tekst moet wcag volgen
+
+Lighthouse checkt of dit goed is
+
+Max regel lengte 50 tot 75 tekens
+
+#### Alt-text
+
+Video/carousels moeten gepauzeerd kunnen worden.

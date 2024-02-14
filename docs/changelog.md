@@ -5,9 +5,11 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_q
 https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit?retiredLocale=nl
 
 https://stackoverflow.com/questions/10752055/cross-origin-requests-are-only-supported-for-http-error-when-loading-a-local
-
 Error getting local json
 
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image
 
+
+https://www.educative.io/answers/how-to-add-an-id-to-element-in-javascript
+Adding a id 

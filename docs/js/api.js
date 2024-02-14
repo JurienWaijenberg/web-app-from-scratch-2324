@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch the JSON data using fetch API
-    fetch('https://jurienwaijenberg.github.io/web-app-from-scratch-2324/info.json')
+    fetch('https://jurienwaijenberg.github.io/web-app-from-scratch-2324/info-motor.json')
     .then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok');
