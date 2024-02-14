@@ -2,7 +2,7 @@
     {
         "firstName": "Juriën",
         "lastName": "Waijenberg",
-        "avatar_url": "https://github.com/JurienWaijenberg/web-app-from-scratch-2324/blob/main/docs/images/porfile-picture.jpg",
+        "avatar_url": "images/porfile-picture.jpg",
         "age": 25,
         "city": "Assendelft",
         "hobbies" : ["Films", "Music", "Art", "Gaming"],

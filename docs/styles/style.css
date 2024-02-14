@@ -174,7 +174,7 @@ header ul {
 }
 
 .profile-picture {
-    background-image: url(../images/porfile-picture.png);
+    /* background-image: url(../images/porfile-picture.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

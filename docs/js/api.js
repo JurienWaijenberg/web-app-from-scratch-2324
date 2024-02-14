@@ -42,33 +42,40 @@ function displayData(data) {
         var listItem = document.createElement('section');
         listItem.classList.add('motor');
 
-        // Assuming the JSON structure has 'name' and 'age' properties
-        var lastnameParagraph = document.createElement('h3');
-        lastnameParagraph.textContent = item.lastName;
-        listItem.appendChild(lastnameParagraph);
-        lastnameParagraph.classList.add('background-text');
+            // Assuming the JSON structure has 'name' and 'age' properties
+            var lastnameParagraph = document.createElement('h3');
+            lastnameParagraph.textContent = item.lastName;
+            listItem.appendChild(lastnameParagraph);
+            lastnameParagraph.classList.add('background-text');
 
-        var profile = document.createElement('section');
-        profile.classList.add('max-width');
-        profile.classList.add('row');
-        listItem.appendChild(profile);
+            var profile = document.createElement('section');
+            profile.classList.add('max-width');
+            profile.classList.add('row');
+            listItem.appendChild(profile);
 
-        var profileInfo = document.createElement('section');
-        profileInfo.classList.add('profile-info');
-        profile.appendChild(profileInfo);
+                var profileInfo = document.createElement('section');
+                profileInfo.classList.add('profile-info');
+                profile.appendChild(profileInfo);
 
-        // Assuming the JSON structure has 'name' and 'age' properties
-        var nameParagraph = document.createElement('h2');
-        nameParagraph.textContent = item.firstName;
-        profileInfo.appendChild(nameParagraph);
+                    // Assuming the JSON structure has 'name' and 'age' properties
+                    var nameParagraph = document.createElement('h2');
+                    nameParagraph.textContent = item.firstName;
+                    profileInfo.appendChild(nameParagraph);
 
-        var ageParagraph = document.createElement('p');
-        ageParagraph.textContent = item.age;
-        profileInfo.appendChild(ageParagraph);
+                    var ul = document.createElement('ul');
+                    profileInfo.appendChild(ul);
 
-        var avatar = document.createElement('img');
-        avatar.src = item.avatar_url;
-        profileInfo.appendChild(avatar);
+                        var ageParagraph = document.createElement('li');
+                        ageParagraph.textContent = item.age;
+                        ul.appendChild(ageParagraph);
+
+                var profileAvatar = document.createElement('section');
+                profileAvatar.classList.add('profile-picture');
+                profile.appendChild(profileAvatar);    
+
+                    var avatar = document.createElement('img');
+                    avatar.src = item.avatar_url;
+                    profileAvatar.appendChild(avatar);
 
         // Append the created element to the data-container div
         document.getElementById('repeater').appendChild(listItem);
