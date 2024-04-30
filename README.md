@@ -1,4 +1,4 @@
-![Schermafbeelding website](/docs/images/Scherm­afbeelding-website.jpg)
+![Schermafbeelding website](https://github.com/JurienWaijenberg/web-app-from-scratch-2324/blob/0d5d68a46755d9298813f8a8b338dda16b55263b/docs/images/Scherm%C2%ADafbeelding-website.jpg)
 
 ## Beschrijving
 Als introductie van de minor webdesign en development zijn we begonnen met het vak web app from scratch. Tijdens deze twee weken was de opdracht om groeps en een eigen single page website te maken met als doel om data op te halen vannuit een api. Je verwerkt je eigen data op je eigen website en op de groeps pagina komt de data van alle groepsleden samen.
