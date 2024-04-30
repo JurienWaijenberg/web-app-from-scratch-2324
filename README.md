@@ -25,35 +25,27 @@ frameworks en de werking van het web.
 |          | Kick-Off, Dev WebSite | Dev TeamApp, Workshops | Dev *, Weekly nerd                 | Dev *, Workshops            | Code review, Voortgangsgesprekken, Dev *  |
 |          | Dev *, Workshops      | College + Workshops    | Dev *, Weekly nerd, Deadline 23:59 | Mondeling, Weekly Nerd Blog | Reparatiegesprekken, Afsluiting, 🍻 Fest? |
 
-## Rubric
 
-Je inzet wordt beoordeeld met behulp van de rubric (zie hieronder). Je moet het criterium (middenkolom) behalen om het
-vak te voltooien.
-Tijdens de toets wordt je mondeling overhoord en krijg je feedback over dingen die we denken dat tekort schieten en dingen die
-we denken dat een verbetering zijn op het criterium.
-
-TBA
-
-[//]: # ()
-[//]: # (| Deficiency | Criterion                                                                                                                                                                              | Improvement |)
-
-[//]: # (|:-----------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------|)
-
-[//]: # (|            | *User Interface* - you design, build and test the user interface by applying interface design principles                                                                               |             |)
-
-[//]: # (|            | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |             |)
-
-[//]: # (|            | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html      |             |)
-
-[//]: # (|            | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.                                       |             |)
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
+![Schermafbeelding website](/docs/images/Scherm­afbeelding-website.jpg)
+
+## Beschrijving
+Als introductie van de minor webdesign en development zijn we begonnen met het vak web app from scratch. Tijdens deze twee weken was de opdracht om groeps en een eigen single page website te maken met als doel om data op te halen vannuit een api. Je verwerkt je eigen data op je eigen website en op de groeps pagina komt de data van alle groepsleden samen.
+
+Voor mijn eigen website heb ik er voor gekozen om een van mijn hobbies naar voren te laten komen, motorrijden. Op mijn single page website staat motorrijden centraal. De pagina begint met een filmpje waarin motorrijders te zien zij die in de bergen rijden. Hierna volgen de data blokken. De data die hier wordt weergegeven komt uit een json file. Bekijk de [changelog](https://github.com/JurienWaijenberg/web-app-from-scratch-2324/blob/9ffc816736ebf17a4a084948127068ee198b3b1b/docs/changelog.md) voor het volledige proces.
+
+## Link naar de live demo
+
+Klik op de link om de [live demo](https://jurienwaijenberg.github.io/web-app-from-scratch-2324/) van mijn website te bekijken.
 
 <!-- ☝️ replace this description with a description of your own work -->
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
+## Installeren
 
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
+
+## Features
+
 
 <!-- Maybe a table of contents here? 📚 -->
 

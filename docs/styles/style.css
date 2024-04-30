@@ -154,7 +154,7 @@ header ul {
     position: absolute;
     object-fit: cover;
     width: -webkit-fill-available;
-        min-height: 70vh;
+    min-height: 70vh;
 }
 
 .video-overlay {

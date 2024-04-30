@@ -1,3 +1,15 @@
+## Ideën bedenken
+
+## Basis html css
+
+## Added a background video and made it responsive
+
+## Content blok
+
+Dit gaat gevuld worden met de data van het JSON bestand
+
+## API koppeling
+
 https://www.maps.ie/create-google-map/
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
