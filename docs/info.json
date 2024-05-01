@@ -6,7 +6,7 @@
         "age": 25,
         "city": "Assendelft",
         "hobbies" : ["Motorrijden", "Padel", "Honkbal", "Muziek"],
-        "truthsAndLies" : ["Ik woon op een boerderij", "Ik heb kippen", "Ik heb mijn motorrijbewijs"],
+        "truthsAndLies" : ["Ik heb mijn motorrijbewijs", "Ik heb kippen", "Ik woon op een boerderij"],
         "bio" : "Mijn naam is Juriën en ik woon in Assendelft. Naast mijn studie hou ik er van om motor te rijden.",
         "favouriteAnimal" : "optioneel",
         "id" : "profile"
