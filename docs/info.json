@@ -6,8 +6,8 @@
         "age": 25,
         "city": "Assendelft",
         "hobbies" : ["Motorrijden", "Padel", "Honkbal", "Muziek"],
-        "truthsAndLies" : ["Ik heb rood haar", "Ik hou van vis", "Mijn partner is een beroemd persoon"],
-        "bio" : "optioneel",
+        "truthsAndLies" : ["Ik woon op een boerderij", "Ik heb kippen", "Ik heb mijn motorrijbewijs"],
+        "bio" : "Mijn naam is Juriën en ik woon in Assendelft. Naast mijn studie hou ik er van om motor te rijden.",
         "favouriteAnimal" : "optioneel",
         "id" : "profile"
     }
